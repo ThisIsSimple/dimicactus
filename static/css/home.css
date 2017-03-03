@@ -1,0 +1,11 @@
+nav.nav {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+
+    transition: .5s;
+}
+
+nav.nav a.is-home {
+    color: #ddd;
+}

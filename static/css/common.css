@@ -1,0 +1,22 @@
+nav.nav {
+    position: fixed;
+    width: 100%;
+
+    transition: .5s;
+}
+
+.hero-body.jumbotron {
+    padding: 10rem 1.5rem;
+}
+
+.is-text-white {
+    color: #fff;
+}
+
+.is-text-black {
+    color: #000;
+}
+
+.has-text-shadow {
+    text-shadow: 2px 2px #666;
+}
