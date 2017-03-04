@@ -41,6 +41,7 @@
             <a class="nav-item is-tab is-hidden-tablet <?php if($menu == 1) echo "is-active"; ?>" href="/index.php/home/about">소개</a>
             <a class="nav-item is-tab is-hidden-tablet <?php if($menu == 2) echo "is-active"; ?>" href="/index.php/home/new2017">2017년 신입생 모집</a>
             <a class="nav-item is-tab is-hidden-tablet <?php if($menu == 3) echo "is-active"; ?>">카투스에듀</a>
+            <!--
             <a class="nav-item is-tab">
                 <figure class="image is-16x16" style="margin-right: 8px;">
                     <img src="http://bulma.io/images/jgthms.png">
@@ -48,8 +49,10 @@
                 Profile
             </a>
             <a class="nav-item is-tab">Log out</a>
+            -->
         </div>
         <div class="nav-right is-hidden-mobile">
+            <!--
             <a class="nav-item is-tab is-home">
                 <figure class="image is-16x16" style="margin-right: 8px;">
                     <img src="http://bulma.io/images/jgthms.png">
@@ -57,6 +60,7 @@
                 Profile
             </a>
             <a class="nav-item is-tab is-home">Log out</a>
+            -->
         </div>
     </div>
 </nav>

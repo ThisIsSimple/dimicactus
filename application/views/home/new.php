@@ -34,13 +34,13 @@
                         <i class="fa fa-cogs fa-5x" aria-hidden="true"></i>
                         <h3 class="title">선인장은 팀입니다.</h3>
                         <h5 class="subtitle">한 사람 한 사람 모두가 </h5>
-                        <p>혼자서 살아갈 수는 없습니다.<br>팀 프로젝트가 중요해지고 있는 지금,<br>선인장과 함께 '팀' 해봅시다!</p>
+                        <p>혼자서 살아갈 수는 없습니다.<br>팀 프로젝트가 중요해지고 있는 지금,<br>선인장과 함께 <b>'팀'</b> 해봅시다!</p>
                     </div>
                     <div class="column">
                         <i class="fa fa-users fa-5x" aria-hidden="true"></i>
                         <h3 class="title">선인장은 여러분을 놓지 않습니다.</h3>
                         <h5 class="subtitle">너, 나가 아닌... '우리'니까요</h5>
-                        <p>포기하지 마십시오! 아니,<br>선인장과 함께라면 포기할 수 없습니다.</p>
+                        <p><b>포기하지 마십시오!</b> 아니,<br>선인장과 함께라면 포기할 수 없습니다.</p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                         <i class="fa fa-exclamation-triangle fa-5x" aria-hidden="true"></i>
                         <h3 class="title">ㅁ...무... 문송합니다!</h3>
                         <h5 class="subtitle">문송...? 그게 뭐죠 먹는 건가요?</h5>
-                        <p>죄송할 필요가 없습니다. 저희는 이과 동아리가 아니거든요.<br><b>당신을 위한 자리는 언제나 마련 되어 있습니다.</b></p>
+                        <p>죄송할 필요가 없습니다. 저희는 개발 동아리가 아니거든요.<br>음악, 게임 제작, 기획, 경영 등<br><b>당신을 위한 자리는 언제나 마련 되어 있습니다.</b></p>
                     </div>
                     <div class="column">
                         <i class="fa fa-battery-1 fa-5x is-blink" aria-hidden="true"></i>
@@ -129,12 +129,12 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <figure class="image profile" style="height: 75px; width: 75px;">
-                                            <img src="/static/img/profile/profile1.png" alt="Image">
+                                            <img src="/static/img/profile/profile1.jpg" alt="Image">
                                         </figure>
                                     </div>
                                     <div class="media-content">
                                         <p class="title is-4">전 윤 민</p>
-                                        <p class="subtitle is-6">15기 웹플 2학년 3반</p>
+                                        <p class="subtitle is-6">15기 웹플 2학년 3반<br>디미고 절대 귀요미 동장</p>
                                     </div>
                                 </div>
 
@@ -163,7 +163,7 @@
                                     </div>
                                     <div class="media-content">
                                         <p class="title is-4">김 수 민</p>
-                                        <p class="subtitle is-6">15기 웹플 2학년 3반</p>
+                                        <p class="subtitle is-6">15기 웹플 2학년 3반<br>만능 체육인 :)</p>
                                     </div>
                                 </div>
 
@@ -180,19 +180,19 @@
                         <div class="card">
                             <div class="card-image is-hidden-mobile">
                                 <figure class="image">
-                                    <img src="/static/img/profile/profile1_back.jpg" alt="Image">
+                                    <img src="/static/img/profile/profile5_back.jpeg" alt="Image">
                                 </figure>
                             </div>
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-left">
                                         <figure class="image profile" style="height: 75px; width: 75px;">
-                                            <img src="/static/img/profile/profile1.png" alt="Image">
+                                            <img src="/static/img/profile/profile5.jpeg" alt="Image">
                                         </figure>
                                     </div>
                                     <div class="media-content">
-                                        <p class="title is-4">전 윤 민</p>
-                                        <p class="subtitle is-6">15기 웹플 2학년 3반</p>
+                                        <p class="title is-4">오 세 은</p>
+                                        <p class="subtitle is-6">15기 웹플 2학년 3반<br>친절한 언늬</p>
                                     </div>
                                 </div>
 
@@ -209,26 +209,26 @@
                         <div class="card">
                             <div class="card-image is-hidden-mobile">
                                 <figure class="image">
-                                    <img src="/static/img/profile/profile1_back.jpg" alt="Image">
+                                    <img src="/static/img/profile/profile8_back.png" alt="Image">
                                 </figure>
                             </div>
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-left">
                                         <figure class="image profile" style="height: 75px; width: 75px;">
-                                            <img src="/static/img/profile/profile1.png" alt="Image">
+                                            <img src="/static/img/profile/profile8.jpeg" alt="Image">
                                         </figure>
                                     </div>
                                     <div class="media-content">
-                                        <p class="title is-4">전 윤 민</p>
-                                        <p class="subtitle is-6">15기 웹플 2학년 3반</p>
+                                        <p class="title is-4">이 수 연</p>
+                                        <p class="subtitle is-6">15기 웹플 2학년 3반<br>뭐라고 적지...</p>
                                     </div>
                                 </div>
 
                                 <div class="content">
-                                    <p><span class="icon"><i class="fa fa-phone" style="font-size: 15px;"></i></span> 010-9351-7679<br>
-                                        <span class="icon"><i class="fa fa-envelope-o" style="font-size: 15px;"></i></span> os731@naver.com<br>
-                                        <span class="icon"><i class="fa fa-comment" style="font-size: 15px;"></i></span> 카카오톡 : ose8282
+                                    <p><span class="icon"><i class="fa fa-phone" style="font-size: 15px;"></i></span> 010-7613-5739<br>
+                                        <span class="icon"><i class="fa fa-envelope-o" style="font-size: 15px;"></i></span> 알려줄 수 @ 없다고 카더라.com<br>
+                                        <span class="icon"><i class="fa fa-comment" style="font-size: 15px;"></i></span> 카카오톡 : qwaszx1248
                                     </p>
                                 </div>
                             </div>

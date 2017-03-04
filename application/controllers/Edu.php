@@ -24,7 +24,11 @@ class Edu extends CI_Controller {
     }
 
     public function education() {
+        $data['menu'] = 3;
 
+        $this->load->view('templates/edu_header', $data);
+        $this->load->view('edu/list');
+        $this->load->view('templates/footer');
     }
 }
 
