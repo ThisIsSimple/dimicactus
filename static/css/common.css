@@ -20,3 +20,12 @@ nav.nav {
 .has-text-shadow {
     text-shadow: 2px 2px #666;
 }
+
+.button.is-primary {
+    background-color: #78A848;
+    color: #fff !important;
+}
+
+.button.is-primary:hover {
+    background-color: #81b44d;
+}
