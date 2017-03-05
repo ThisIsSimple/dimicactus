@@ -31,8 +31,18 @@ class Home extends CI_Controller {
         $this->load->view('templates/footer');
     }
 
+    public function plan() {
+        $data['menu'] = 4;
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('home/plan');
+        $this->load->view('templates/footer');
+    }
+
     public function new2017() {
         $data['menu'] = 2;
+
+        $this->output->cache(10);
 
         $this->load->view('templates/header', $data);
         $this->load->view('home/new');

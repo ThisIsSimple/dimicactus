@@ -28,8 +28,9 @@
                 </a>
                 <a class="nav-item is-tab is-hidden-mobile is-home <?php if($menu == 0) echo "is-active"; ?>" href="/index.php/home/main">홈</a>
                 <a class="nav-item is-tab is-hidden-mobile is-home <?php if($menu == 1) echo "is-active"; ?>" href="/index.php/home/about">소개</a>
+                <a class="nav-item is-tab is-hidden-mobile is-home <?php if($menu == 4) echo "is-active"; ?>" href="/index.php/home/plan">연간 활동 계획</a>
                 <a class="nav-item is-tab is-hidden-mobile is-home <?php if($menu == 2) echo "is-active"; ?>" href="/index.php/home/new2017">2017년 신입생 모집</a>
-                <a class="nav-item is-tab is-hidden-mobile is-home" href="/index.php/edu">카투스에듀</a>
+                <a class="nav-item is-tab is-hidden-mobile is-home <?php if($menu == 3) echo "is-active"; ?>" href="/index.php/edu">카투스에듀</a>
             </div>
             <span class="nav-toggle">
                 <span></span>
@@ -39,8 +40,9 @@
             <div class="nav-right nav-menu is-hidden-tablet">
                 <a class="nav-item is-tab is-hidden-tablet <?php if($menu == 0) echo "is-active"; ?>" href="/index.php/home/main">홈</a>
                 <a class="nav-item is-tab is-hidden-tablet <?php if($menu == 1) echo "is-active"; ?>" href="/index.php/home/about">소개</a>
+                <a class="nav-item is-tab is-hidden-tablet <?php if($menu == 4) echo "is-active"; ?>" href="/index.php/home/plan">연간 활동 계획</a>
                 <a class="nav-item is-tab is-hidden-tablet <?php if($menu == 2) echo "is-active"; ?>" href="/index.php/home/new2017">2017년 신입생 모집</a>
-                <a class="nav-item is-tab is-hidden-tablet" href="/index.php/edu">카투스에듀</a>
+                <a class="nav-item is-tab is-hidden-tablet <?php if($menu == 3) echo "is-active"; ?>" href="/index.php/edu">카투스에듀</a>
                 <!--
                 <a class="nav-item is-tab">
                     <figure class="image is-16x16" style="margin-right: 8px;">

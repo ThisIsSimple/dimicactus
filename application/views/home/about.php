@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/static/css/about.css">
 
 <div style="background-color: #000;">
-    <section class="hero is-medium" style="background: url('/static/img/main2.jpg') no-repeat center center; background-size: cover; background-attachment: fixed;">
+    <section class="hero is-medium" style="background: url('/static/img/main2.jpg') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-attachment: fixed;">
         <div class="hero-body jumbotron">
             <div class="container has-text-centered">
                 <img src="/static/img/logo.png" width="150px">
@@ -62,13 +62,13 @@
                         <div class="profile has-text-centered">
                             <img src="/static/img/profile/profile1.jpg" style="display: block;">
                         </div>
-                        <p><b>웹 디자인 & 웹</b><br>전 윤 민</p>
+                        <p><b>웹 디자인 & 인공지능</b><br>전 윤 민</p>
                     </div>
                     <div class="inline">
                         <div class="profile has-text-centered">
                             <img src="/static/img/profile/profile2.jpeg" style="display: block;">
                         </div>
-                        <p><b>자바 & 안드로이드</b><br>김 승 범</p>
+                        <p><b>웹 & 자바</b><br>김 승 범</p>
                     </div>
                     <div class="inline">
                         <div class="profile has-text-centered">
