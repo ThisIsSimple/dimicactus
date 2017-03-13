@@ -17,5 +17,100 @@
     <schema id="11" parent="1" name="test"/>
     <schema id="12" parent="1" name="tire"/>
     <schema id="13" parent="1" name="todo"/>
+    <table id="14" parent="2" name="comment"/>
+    <table id="15" parent="2" name="consider"/>
+    <table id="16" parent="2" name="done"/>
+    <table id="17" parent="2" name="list"/>
+    <table id="18" parent="2" name="member"/>
+    <column id="19" parent="14" name="idx">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="20" parent="14" name="member_idx">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="14" name="content">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="22" parent="14" name="PRIMARY">
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="23" parent="15" name="idx">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="24" parent="15" name="member_idx">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="25" parent="15" name="PRIMARY">
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="26" parent="16" name="idx">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="27" parent="16" name="member_idx">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="28" parent="16" name="PRIMARY">
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="29" parent="17" name="idx">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="30" parent="17" name="member_idx">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="31" parent="17" name="PRIMARY">
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="18" name="idx">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="33" parent="18" name="number">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="18" name="name">
+      <Position>3</Position>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="18" name="content">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="36" parent="18" name="PRIMARY">
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
